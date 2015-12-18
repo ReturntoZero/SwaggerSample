@@ -12,8 +12,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E38B03
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{7533B0FE-1A79-4891-9287-2EB3580A1F7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPI", "SampleAPI\SampleAPI.csproj", "{21DD3909-010C-40BA-8969-1F2F732A10AC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21DD3909-010C-40BA-8969-1F2F732A10AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DD3909-010C-40BA-8969-1F2F732A10AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DD3909-010C-40BA-8969-1F2F732A10AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DD3909-010C-40BA-8969-1F2F732A10AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21DD3909-010C-40BA-8969-1F2F732A10AC} = {7533B0FE-1A79-4891-9287-2EB3580A1F7B}
 	EndGlobalSection
 EndGlobal
