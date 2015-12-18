@@ -11,12 +11,21 @@ namespace SampleAPI.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
+        /// <summary>
+        /// 取得多筆資料
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
+        /// <summary>
+        /// 取得符合輸入 id 的單筆資料
+        /// </summary>
+        /// <param name="id">傳入的ID</param>
+        /// <returns></returns>
         public string Get(int id)
         {
             return "value";
