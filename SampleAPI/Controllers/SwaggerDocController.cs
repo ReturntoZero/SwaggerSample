@@ -22,5 +22,15 @@ namespace SampleAPI.Controllers
         {
             return "Hello";
         }
+
+        /// <summary>
+        /// 取得識別資料
+        /// </summary>
+        /// <param name="Id">識別碼</param>
+        /// <remarks>取回識別資料</remarks>
+        /// <response code="500">Internal Server Error</response>
+        public string Get(string Id) {
+            return Id;
+        }
     }
 }
